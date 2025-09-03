@@ -1,6 +1,6 @@
 # Human-in-the-Loop Generation of Adversarial Texts: A Case Study on Tibetan Script
 
-## Introduction
+## 😃 Introduction
 
 DNN-based language models perform excellently on various tasks, but even SOTA LLMs are susceptible to textual adversarial attacks.
 Adversarial texts play crucial roles in multiple subfields of NLP.
@@ -19,11 +19,11 @@ How do we update adversarial robustness benchmarks?
 To address the above issues, we introduce _HITL-GAT_, a system based on a general approach to human-in-the-loop generation of adversarial texts.
 Additionally, we utilize _HITL-GAT_ to make a case study on Tibetan script which can be a reference for the adversarial research of other less-studied languages.
 
-## Flowchart
+## 📝 Flowchart
 
 ![flowchart](assets/flowchart.png)
 
-## Quickstart
+## 🚀 Quickstart
 
 ### Requirements
 
@@ -83,13 +83,13 @@ You can find the attack assists in `data/AttackAssist.*`, the experimental logs 
 
 Now, you can `python webui.py` or run the scripts under the `script` dir.
 
-## Screenshots
+## 🖼️ Screenshots
 
 ![screenshot1](assets/screenshot1.png)
 ![screenshot2](assets/screenshot2.png)
 ![screenshot3](assets/screenshot3.png)
 ![screenshot4](assets/screenshot4.png)
 
-## Acknowledgments
+## 😘 Acknowledgments
 
 Thanks to the following open-sourced projects: [OpenAttack](https://aclanthology.org/2021.acl-demo.43/), [Gradio](https://arxiv.org/abs/1906.02569), [LlamaFactory](https://aclanthology.org/2024.acl-demos.38/), [Transformers](https://aclanthology.org/2020.emnlp-demos.6/), [Datasets](https://aclanthology.org/2021.emnlp-demo.21/), and so on.
